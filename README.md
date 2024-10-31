@@ -1,2 +1,2 @@
 # arm-tools-simple_stm32f4
-you can find here an example of using conan toolchain or library in relation to embedded.
+You can find here an example of using conan toolchain or library in relation to embedded. This project solves the problem of using gtest for a high level. Switching between PC and MCU will be done using a flag passed to cmake . In this implementation, the conan manager does not require an extension for the IDE since its call is integrated into cmake . You do not necessarily need to have a compiler or a built gtest on your computer since the package manager itself will pull in the necessary dependencies during the cmake configuration.
