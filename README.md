@@ -26,3 +26,19 @@ When generating a project in CubeMX, users often struggle to easily control whic
 CMSIS provides driver interface descriptions in C, but today, writing embedded projects purely in C for STM32 is becoming less common due to increasing algorithmic complexity. It’s essential to adapt to modern development needs. Furthermore, the compiler flags required to reduce binary size and apply proper processor settings remain a mystery to many users.
 
 If you disagree with any of my points or have resources to share, I welcome any feedback or constructive criticism.
+
+# Requirements
+- Python 3 and required libraries (install the necessary ones for your system)
+- Conan client installed (find instructions at https://conan.io/downloads)
+  
+# Fast start
+
+  To use my packages, add my repository to the list of Conan repositories, and you will be able to find the required GCC version with the necessary host and target options.
+  
+  ```
+  conan remote add arm-tools  https://artifactory.nextcloud-iahve.ru/artifactory/api/conan/arm-tools
+  ```
+
+# How to use
+
+
