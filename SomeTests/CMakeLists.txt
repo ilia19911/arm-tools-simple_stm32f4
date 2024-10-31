@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 
-include(${CMAKE_CURRENT_LIST_DIR}/.stcproj/project_init.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/.project/project_init.cmake)
 
 project(tests_project)
 
