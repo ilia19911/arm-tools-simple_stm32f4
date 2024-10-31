@@ -1,0 +1,25 @@
+{
+    "buildType": {
+        "default": "mcu",
+        "choices": {
+            "mcu": {
+                "short": "mcu",
+                "long": "build for mcu",
+                "description": "Debug build with test type MY_TEST",
+                "settings": {
+                    "TEST_TYPE": "",
+                    "CMAKE_BINARY_DIR": "mcu-build"
+                }
+            },
+            "some test": {
+                "short": "some test",
+                "long": "build for testing on pc",
+                "description": "Release build with test type OTHER_TEST",
+                "settings": {
+                    "TEST_TYPE": "SOME_TEST",
+                    "CMAKE_BINARY_DIR": "some-test-build"
+                }
+            }
+        }
+    }
+}

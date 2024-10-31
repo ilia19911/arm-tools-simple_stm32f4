@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 
+message("test type" : ${TEST_TYPE})
 
 if(TEST_TYPE STREQUAL "SOME_TEST")
     message("TEST SOME_TEST")
