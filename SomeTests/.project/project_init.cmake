@@ -10,7 +10,7 @@ else ()
 endif ()
 
 execute_process(
-        COMMAND conan install ${CMAKE_CURRENT_LIST_DIR} -pr:h=${PROFILE_HOST} -pr:b=${PROFILE_BUILD} --output-folder=${CMAKE_BINARY_DIR} -r=arm-tools #    --build missing
+        COMMAND conan install ${CMAKE_CURRENT_LIST_DIR} -pr:h=${PROFILE_HOST} -pr:b=${PROFILE_BUILD} --output-folder=${CMAKE_BINARY_DIR} -r=arm-tools --build missing #    --build missing
         RESULT_VARIABLE CONAN_INSTALL_RESULT
         OUTPUT_VARIABLE CONAN_INSTALL_OUTPUT
 )
